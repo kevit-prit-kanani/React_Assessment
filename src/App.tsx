@@ -5,6 +5,7 @@ import About from './components/ui/About'
 import { Layout } from './Layout'
 import { SimpleCounter } from './components/counter/counter'
 import { ReduxCounter } from './components/counter/ReduxCounter'
+import { PostsPage } from './components/posts/Postspage'
 
 function App() {
   return (
@@ -16,10 +17,12 @@ function App() {
           <Route path='reduxCounter' element={<ReduxCounter />} />
           <Route path='home' element={<Home />} />
           <Route path='about' element={<About />} />
+          <Route path='postsPage' element={<PostsPage />} />
         </Route>
       </Routes>
     </div>
   )
+
 }
 
 export default App

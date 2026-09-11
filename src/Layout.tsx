@@ -9,6 +9,7 @@ export function Layout() {
                     <Link to="/reduxCounter" className="text-blue-500 hover:underline">Redux Counter</Link>|
                     <Link to="/home" className="text-blue-500 hover:underline">Home</Link>|
                     <Link to="/about" className="text-blue-500 hover:underline">About</Link> |
+                    <Link to='/postsPage' className="text-blue-500 hover:underline">postsPage</Link> |
                 </nav>
             </div>
             <Outlet />
