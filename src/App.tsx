@@ -9,6 +9,7 @@ import { PostsPage } from './components/posts/Postspage'
 import { LoginForm } from './components/ui/LoginPage'
 import { ToggleParagraph } from './components/ui/Toggle'
 import { TodoPage } from './components/todo/TodoPage'
+import { ResetForm } from './components/ui/resetForm'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='loginForm' element={<LoginForm />} />
           <Route path='toggle' element={<ToggleParagraph />} />
           <Route path='todo' element={<TodoPage />} />
+          <Route path='resetForm' element={<ResetForm />} />
         </Route>
       </Routes>
     </div>
