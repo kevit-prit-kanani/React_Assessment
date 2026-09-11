@@ -7,6 +7,7 @@ import { SimpleCounter } from './components/counter/counter'
 import { ReduxCounter } from './components/counter/ReduxCounter'
 import { PostsPage } from './components/posts/Postspage'
 import { LoginForm } from './components/ui/LoginPage'
+import { ToggleParagraph } from './components/ui/Toggle'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='about' element={<About />} />
           <Route path='postsPage' element={<PostsPage />} />
           <Route path='loginForm' element={<LoginForm />} />
+          <Route path='toggle' element={<ToggleParagraph />} />
         </Route>
       </Routes>
     </div>

@@ -11,6 +11,7 @@ export function Layout() {
                     <Link to="/about" className="text-blue-500 hover:underline">About</Link> |
                     <Link to='/postsPage' className="text-blue-500 hover:underline">postsPage</Link> |
                     <Link to='/loginForm' className="text-blue-500 hover:underline">Login</Link> |
+                    <Link to='/toggle' className="text-blue-500 hover:underline">Toggle Page</Link>
                 </nav>
             </div>
             <Outlet />
