@@ -6,6 +6,7 @@ import { Layout } from './Layout'
 import { SimpleCounter } from './components/counter/counter'
 import { ReduxCounter } from './components/counter/ReduxCounter'
 import { PostsPage } from './components/posts/Postspage'
+import { LoginForm } from './components/ui/LoginPage'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='home' element={<Home />} />
           <Route path='about' element={<About />} />
           <Route path='postsPage' element={<PostsPage />} />
+          <Route path='loginForm' element={<LoginForm />} />
         </Route>
       </Routes>
     </div>
